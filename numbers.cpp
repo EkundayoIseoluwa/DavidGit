@@ -12,7 +12,7 @@ int difference(int a, int b)
 	return a-b;
 }
 
-int mod()
+int div(int a, int b)
 {
 		return a/b;
 }
@@ -28,8 +28,8 @@ int main(){
 
 	printf("1 - compare the numbers\n");
 	printf("2 - find the difference\n");
-	printf()
-	printf("3 - exit\n");
+	printf("3 find a div b- ");
+	printf("4 - exit\n");
 	
 	switch(menu){
 		case 1: res = compareNum(a, b);
@@ -38,7 +38,7 @@ int main(){
 			break;
 		case 2: printf("%d \n", difference(a, b));
 			break;
-		case 3: printf("%d",mod(a, b)); break;
+		case 3: printf("%d",div(a, b)); break;
 		case 4: break;
 	}
 	return 0;
